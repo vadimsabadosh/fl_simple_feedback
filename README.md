@@ -1,16 +1,11 @@
-# fl_simple_feedback_01
+# Simple Feedback Feature
 
-A new Flutter project.
+![Screenshot](screenshot.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Application inludes 3 simple widgets, which are used to show feedback.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Feedback Options** - This widget shows 3 buttons, that are gotten from object which contains 3 states - good, neutral, bad.
+- **Statistics** - This widget shows general information about the feedback.
+- **Notification** - This widget recieves message that will be shown if there is no feedback
